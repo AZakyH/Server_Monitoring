@@ -1,0 +1,7 @@
+---
+- hosts: worker
+  tasks:
+    - name: Buat folder dan copy
+      command: mkdir -p inifolder
+    - name: copy file
+      copy: src=./lynx.yml dest=~/inifolder/lynx.yml 

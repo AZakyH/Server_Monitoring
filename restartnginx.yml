@@ -1,0 +1,7 @@
+---
+- hosts: worker
+  become: yes
+  tasks:
+  - name: restart nginx service 
+    service: name=nginx state=restarted
+#It Works Alhamdulillah
