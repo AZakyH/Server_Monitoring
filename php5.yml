@@ -3,4 +3,4 @@
 
 - hosts: worker
   roles:
-    - { role: worker }
+    - { role: php5 }

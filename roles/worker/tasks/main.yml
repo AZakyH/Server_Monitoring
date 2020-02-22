@@ -1,4 +1,0 @@
----
-- include : preinstall.yml
-- include : install.yml
-- include : postinstall.yml

@@ -1,0 +1,9 @@
+---
+- name: Install the MySQL packages
+  become: yes
+  apt:
+    name: "{{ item }}"
+    state: installed
+    update_cache: yes
+  with_items: "{{ ubuntu_mysql_pkgs }}"
+

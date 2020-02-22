@@ -1,0 +1,6 @@
+---
+# Menjalankan roles
+
+- hosts: worker
+  roles:
+    - { role: terminator }

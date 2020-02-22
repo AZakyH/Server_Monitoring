@@ -12,3 +12,4 @@
     src=default
     dest='/etc/nginx/sites-available/default'
   notify: nginx restart
+  tag: post-install

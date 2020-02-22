@@ -1,0 +1,10 @@
+---
+# Menjalankan roles
+
+- hosts: worker
+  vars:
+    proxy_env: 'http://ITS-553468-dc885:0e820@proxy.its.ac.id:8080'
+    username: 'ITS-562870-b60dc'
+    password: '6ac51'
+  roles:
+    - { role: nginx }
